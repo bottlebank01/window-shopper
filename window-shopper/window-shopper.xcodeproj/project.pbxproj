@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C70A04BB209AF81F00D102EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A04BA209AF81F00D102EE /* AppDelegate.swift */; };
-		C70A04BD209AF81F00D102EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A04BC209AF81F00D102EE /* ViewController.swift */; };
+		C70A04BD209AF81F00D102EE /* ShopperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A04BC209AF81F00D102EE /* ShopperVC.swift */; };
 		C70A04C0209AF81F00D102EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A04BE209AF81F00D102EE /* Main.storyboard */; };
 		C70A04C2209AF81F00D102EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A04C1209AF81F00D102EE /* Assets.xcassets */; };
 		C70A04C5209AF81F00D102EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A04C3209AF81F00D102EE /* LaunchScreen.storyboard */; };
+		C70A04D0209AFC8D00D102EE /* shopperTxt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A04CF209AFC8D00D102EE /* shopperTxt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C70A04B7209AF81F00D102EE /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70A04BA209AF81F00D102EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C70A04BC209AF81F00D102EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C70A04BC209AF81F00D102EE /* ShopperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopperVC.swift; sourceTree = "<group>"; };
 		C70A04BF209AF81F00D102EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C70A04C1209AF81F00D102EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70A04C4209AF81F00D102EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C70A04C6209AF81F00D102EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70A04CF209AFC8D00D102EE /* shopperTxt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopperTxt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		C70A04B9209AF81F00D102EE /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				C70A04CE209AFC6B00D102EE /* Components */,
+				C70A04CD209AFA0600D102EE /* Views */,
+				C70A04CC209AF9F500D102EE /* Model */,
 				C70A04BA209AF81F00D102EE /* AppDelegate.swift */,
-				C70A04BC209AF81F00D102EE /* ViewController.swift */,
 				C70A04BE209AF81F00D102EE /* Main.storyboard */,
 				C70A04C1209AF81F00D102EE /* Assets.xcassets */,
 				C70A04C3209AF81F00D102EE /* LaunchScreen.storyboard */,
 				C70A04C6209AF81F00D102EE /* Info.plist */,
 			);
 			path = "window-shopper";
+			sourceTree = "<group>";
+		};
+		C70A04CC209AF9F500D102EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C70A04CD209AFA0600D102EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C70A04BC209AF81F00D102EE /* ShopperVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C70A04CE209AFC6B00D102EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C70A04CF209AFC8D00D102EE /* shopperTxt.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70A04BD209AF81F00D102EE /* ViewController.swift in Sources */,
+				C70A04BD209AF81F00D102EE /* ShopperVC.swift in Sources */,
+				C70A04D0209AFC8D00D102EE /* shopperTxt.swift in Sources */,
 				C70A04BB209AF81F00D102EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
